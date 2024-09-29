@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.buttonscontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+}
+button {
+    min-width: 160px;
+    min-height: 160px;
+    max-width: 180px;
+    max-height: 180px;
+    border: none; 
+    background: transparent; 
+}
+
+img {
+    width: 100%; /* Make image fill the button */
+    height: 100%; /* Maintain aspect ratio */
+}
